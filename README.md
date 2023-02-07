@@ -1,5 +1,16 @@
 # IoUTSec
-An ontology for the domains of Drones and Cybersecurity
+The aim of the ontology is to represent knowledge related to drones' semantic trajectories (flights, missions, recordings). Reuses onto4drone ontology (http://i-lab.aegean.gr/kotis/Ontologies/Onto4drone) and UCO ontology (http://ffrdc.ebiquity.umbc.edu/ns/ontology).
+
+Ontology IRI: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec
+
+Ontology proposed prefix: iout
+
+OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec.owl
+
+Latest OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec_v1.0.2.owl
+
+
+
 
 
 ## **High-level Architecture**
