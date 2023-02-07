@@ -10,8 +10,13 @@ OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec.owl
 Latest OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec_v1.0.2.owl
 
 
+_Figure 1. Example KG representing knowledge related to a cybersecurity scenario in IoUT_
 
+## **Example object properties, individuals, restrictions, and annotations**
 
+_Figure 2. The object properties, individuals, restrictions, and annotations of the class SIEM of the IoUT ontology (version 1.0.0)_
+
+_Figure 3. The object properties, individuals, restrictions, and annotations of the class Sail of the IoUT ontology (version 1.0.0)_
 
 ## **High-level Architecture**
 ![Architecture](https://myoctocat.com/assets/images/base-octocat.svg)
