@@ -9,7 +9,7 @@ OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec.owl
 
 Latest OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec_v1.0.2.owl
 
-
+![KG](https://drive.google.com/file/d/1OeicPj6G450lm6v_atJhtYvDKaNQsq0z/view?usp=share_link)
 _Figure 1. Example KG representing knowledge related to a cybersecurity scenario in IoUT_
 
 ## **Example object properties, individuals, restrictions, and annotations**
