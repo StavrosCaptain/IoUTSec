@@ -7,7 +7,7 @@ Ontology proposed prefix: iout
 
 OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec.owl
 
-Latest OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec_v1.0.2.owl
+Latest OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec.owl
 
 ![KG](https://github.com/StavrosCaptain/IoUTSec/blob/main/Images/classes_properties_with_relationships.png)
 
