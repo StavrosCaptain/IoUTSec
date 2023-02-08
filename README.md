@@ -9,17 +9,34 @@ OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec.owl
 
 Latest OWL file: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec/IoUTsec_v1.0.2.owl
 
-![KG](https://drive.google.com/file/d/1OeicPj6G450lm6v_atJhtYvDKaNQsq0z/view?usp=share_link)
+![KG](https://github.com/StavrosCaptain/IoUTSec/blob/main/Images/classes_properties_with_relationships.png)
+
 _Figure 1. Example KG representing knowledge related to a cybersecurity scenario in IoUT_
+
+## **Workflow and proof-of-concept toolset of proposed framework**
+
+![Workflow](https://github.com/StavrosCaptain/IoUTSec/blob/main/Images/workflow.png)
+
+_Figure 2. Workflow of proposed framework_
+
+![Toolset](https://github.com/StavrosCaptain/IoUTSec/blob/main/Images/proof-of-concept%20implementation%20toolset.png)
+
+_Figure 3. Implementation details of proposed proof-of-concept toolset._
 
 ## **Example object properties, individuals, restrictions, and annotations**
 
-_Figure 2. The object properties, individuals, restrictions, and annotations of the class SIEM of the IoUT ontology (version 1.0.0)_
+![SIEM](https://github.com/StavrosCaptain/IoUTSec/blob/main/Images/siem%20protege.png)
 
-_Figure 3. The object properties, individuals, restrictions, and annotations of the class Sail of the IoUT ontology (version 1.0.0)_
+_Figure 4. The object properties, individuals, restrictions, and annotations of the class SIEM of the IoUT ontology (version 1.0.0)_
+
+![SAIL](https://github.com/StavrosCaptain/IoUTSec/blob/main/Images/sail%20protege.png)
+
+_Figure 5. The object properties, individuals, restrictions, and annotations of the class Sail of the IoUT ontology (version 1.0.0)_
 
 ## **High-level Architecture**
-![Architecture](https://myoctocat.com/assets/images/base-octocat.svg)
+![Architecture](https://github.com/StavrosCaptain/IoUTSec/blob/main/Images/High-level%20architecture.png)
+
+_Figure 6. High-level Architecture of proposed integrations to existing simulation tools_
 
 ## **Description**
 
