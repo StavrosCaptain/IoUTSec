@@ -1,0 +1,1892 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#"
+     xml:base="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:DUL="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+     xmlns:ekt="https://www.semantics.gr/authorities/schemanamespaces/ekt#"
+     xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="http://www.w3.org/2002/07/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/"
+     xmlns:datAcron="http://www.datacron-project.eu/datAcron#"
+     xmlns:ontology="http://ffrdc.ebiquity.umbc.edu/ns/ontology#"
+     xmlns:onto4drone="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#">
+    <owl:Ontology rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec">
+        <owl:imports rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology"/>
+        <owl:imports rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone/1.0.2"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#formsTrajectory -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#formsTrajectory">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:45:24Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasAsset -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasAsset">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:32:32Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasFlight -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasFlight">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:43:51Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasLatitude -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasLatitude">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:28:47Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasLocation -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasLocation">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:24:44Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasLongitude -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasLongitude">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:29:10Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasPart -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasPart">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:49:28Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasPoint -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasPoint">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:05:25Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasSail -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasSail">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:13:16Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasTemporalFeature -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasTemporalFeature">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:09:29Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasTime -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasTime">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:10:50Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasWeatherCondition -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasWeatherCondition">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:52:41Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#reportedPressure -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#reportedPressure">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:07:26Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#reportedWindSpeed -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#reportedWindSpeed">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:07:48Z</dc:date>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/onto4drone#isProducedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#isProducedBy"/>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/onto4drone#produces -->
+
+    <owl:AnnotationProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#produces"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#originatesFrom -->
+
+    <owl:AnnotationProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#originatesFrom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ffrdc.ebiquity.umbc.edu/ns/ontology#isUnderAttackfrom -->
+
+    <rdf:Description rdf:about="http://ffrdc.ebiquity.umbc.edu/ns/ontology#isUnderAttackfrom">
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ffrdc.ebiquity.umbc.edu/ns/ontology#usesAttacks -->
+
+    <rdf:Description rdf:about="http://ffrdc.ebiquity.umbc.edu/ns/ontology#usesAttacks">
+        <rdfs:domain rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Attacker"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasTarget -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasTarget">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-26T08:25:06Z</dc:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#has_sail -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#has_sail">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isParticipantIn"/>
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone"/>
+        <rdfs:range rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T16:59:02Z</dc:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#has_trajectory -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#has_trajectory">
+        <rdfs:domain rdf:resource="http://www.datacron-project.eu/datAcron#MovingObject"/>
+        <rdfs:range rdf:resource="http://www.datacron-project.eu/datAcron#Trajectory"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:16:37Z</dc:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#includes_sail -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#includes_sail">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent"/>
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#Mission"/>
+        <rdfs:range rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T17:02:22Z</dc:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#isConfiguratedIn -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#isConfiguratedIn">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:34:57Z</dc:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#isExecutedBy -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#isExecutedBy">
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#VulnerabilityAssesment"/>
+        <rdfs:range rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#VulnerabilityScanners"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:46:30Z</dc:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#isHostedOn -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#isHostedOn">
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SIEM"/>
+        <rdfs:range rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Hosts"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T16:45:17Z</dc:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#is_a_Step_of -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#is_a_Step_of">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:47:10Z</dc:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#reportLogsTo -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#reportLogsTo">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:44:13Z</dc:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/onto4drone#formsTrajectory -->
+
+    <rdf:Description rdf:about="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#formsTrajectory">
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#attack_mitigated -->
+
+    <owl:DatatypeProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#attack_mitigated">
+        <rdfs:domain rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Attack"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:43:18Z</dc:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasBearing -->
+
+    <owl:DatatypeProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasBearing">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-26T08:25:26Z</dc:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasRange -->
+
+    <owl:DatatypeProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#hasRange">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-26T08:26:29Z</dc:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#has_IPv4_address -->
+
+    <owl:DatatypeProperty rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#has_IPv4_address">
+        <rdfs:domain rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#IPv4Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:20:13Z</dc:date>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hasTime -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/hasTime">
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SecurityMechanisms"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CentralPlatform -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CentralPlatform">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#LandObject"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T20:45:12Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Debian -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Debian">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Linux"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:38:55Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Device -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Device">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CentralPlatform"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T20:49:33Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Endpoints -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Endpoints">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Device"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:36:43Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Fedora -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Fedora">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Linux"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:38:49Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Firewalls -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Firewalls">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Device"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:37:23Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Framework -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Framework">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SecurityMechanisms"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:33:52Z</dc:date>
+        <rdfs:comment>A set of documents describing guidelines, standards, and best practices designed for cyber security risk management</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Hosts -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Hosts">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Endpoints"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:36:51Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#LandObject -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#LandObject">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#StableObject"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T20:46:36Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Linux -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Linux">
+        <rdfs:subClassOf rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#OperatingSystem"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:38:40Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Policy -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Policy">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SecurityMechanisms"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:33:41Z</dc:date>
+        <rdfs:comment>Defines and documents an organization&apos;s statement of intent, principles and approaches to ensure effective management of cybersecurity risks in pursuit of its strategic objectives.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Printers -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Printers">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Endpoints"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:36:58Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SIEM -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SIEM">
+        <rdfs:subClassOf rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Software"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:42:57Z</dc:date>
+        <rdfs:comment>Aggregate data from multiple systems and analyze that data to catch abnormal behavior or potential cyberattacks.</rdfs:comment>
+        <rdfs:isDefinedBy>https://www.varonis.com/blog/what-is-siem</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:02:17Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SecurityMechanisms -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SecurityMechanisms">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-26T08:45:42Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Server -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Server">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:41:07Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#StableObject -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#StableObject">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T20:44:59Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SurfaceObject -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SurfaceObject">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#StableObject"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T20:45:30Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SurfaceShip -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SurfaceShip">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#MarineObject"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T20:43:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UnderwaterNode -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UnderwaterNode">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UnderwaterObject"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T20:46:10Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UnderwaterObject -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UnderwaterObject">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#StableObject"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T20:46:02Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#VulnerabilityAssesment -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#VulnerabilityAssesment">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SecurityMechanisms"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:48:18Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#VulnerabilityScanners -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#VulnerabilityScanners">
+        <rdfs:subClassOf rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Software"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:45:55Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows">
+        <rdfs:subClassOf rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#OperatingSystem"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:38:33Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#10 -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#10">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:39:12Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#11 -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#11">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:39:16Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#7 -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#7">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:38:59Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#8 -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#8">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:39:08Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone -->
+
+    <rdf:Description rdf:about="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone">
+        <rdfs:label xml:lang="en">UMV drone</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CVE-2022-22718 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CVE-2022-22718">
+        <rdf:type rdf:resource="http://capec.mitre.org/capec_v1#Weakness"/>
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Vulnerability"/>
+        <ontology:hasConsequence rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Remote_Access_001"/>
+        <www:hasCVE_ID rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CVE-2022-22718"/>
+        <ontology:hasSeverityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.8</ontology:hasSeverityScore>
+        <www:discoveryTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;&quot;250227Z JAN 23&quot;&quot;</www:discoveryTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:58:05Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CVE-2023-23560 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CVE-2023-23560">
+        <rdf:type rdf:resource="http://capec.mitre.org/capec_v1#Weakness"/>
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Vulnerability"/>
+        <ontology:hasConsequence rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Lexmark_Brute_Force_Login"/>
+        <www:hasCVE_ID rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CVE-2023-23560"/>
+        <ontology:hasSeverityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ontology:hasSeverityScore>
+        <ontology:publishedDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;13 JAN 23&quot;</ontology:publishedDateTime>
+        <www:discoveryTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;&quot;250228Z JAN 23&quot;&quot;</www:discoveryTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-26T08:37:27Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Central_Platform -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Central_Platform">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CentralPlatform"/>
+        <ontology:hasIPv4Address rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_11"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Lexmark_Printer_001"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Ubuntu"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows_10"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows_Server"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#pfSense"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T20:52:15Z</dc:date>
+        <rdfs:label>Central Platform</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#DoS_alert_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#DoS_alert_001">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#EventOfInterest"/>
+        <datAcron:isReportedBy rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Splunk"/>
+        <ontology:dataSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ontology:dataSize>
+        <www:hasTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;250230Z JAN 23&quot;</www:hasTime>
+        <onto4drone:isProducedBy rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Splunk"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:50:10Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Flight_GR_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Flight_GR_001">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Flight"/>
+        <onto4drone:formsTrajectory rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UAV_GR_001_1"/>
+        <formsTrajectory rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UAV_GR_001_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:44:52Z</dc:date>
+        <rdfs:label>Flight_GR_001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Flight_GR_002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Flight_GR_002">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Flight"/>
+        <formsTrajectory rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UAV_GR_002_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:59:03Z</dc:date>
+        <rdfs:label>Flight_GR_002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_10 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_10">
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#IPv4Address"/>
+        <owl:sameAs rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows_10"/>
+        <has_IPv4_address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;192.168.1.10&quot;</has_IPv4_address>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T11:06:55Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_11 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_11">
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#IPv4Address"/>
+        <owl:sameAs rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Ubuntu"/>
+        <has_IPv4_address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;192.168.1.11&quot;</has_IPv4_address>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T11:14:10Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_169 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_169">
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#IPv4Address"/>
+        <owl:sameAs rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Kali_Linux"/>
+        <owl:sameAs rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_001"/>
+        <has_IPv4_address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;192.168.1.169&quot;</has_IPv4_address>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T11:17:35Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_2 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_2">
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#IPv4Address"/>
+        <owl:sameAs rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows_Server"/>
+        <has_IPv4_address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;192.168.1.2&quot;</has_IPv4_address>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T16:44:38Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Kali_Linux -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Kali_Linux">
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Attacker"/>
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Debian"/>
+        <owl:sameAs rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_001"/>
+        <ontology:hasIPv4Address rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_169"/>
+        <has_IPv4_address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;192.168.1.169&quot;</has_IPv4_address>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T11:16:43Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Lexmark_Brute_Force_Login -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Lexmark_Brute_Force_Login">
+        <rdf:type rdf:resource="http://capec.mitre.org/capec_v1#Weakness"/>
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Vulnerability"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T11:00:09Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Lexmark_Printer_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Lexmark_Printer_001">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Printers"/>
+        <ontology:hasVulnerability rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CVE-2023-23560"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-27T20:50:40Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Mitigated_Attack_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Mitigated_Attack_001">
+        <attack_mitigated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</attack_mitigated>
+        <www:hasTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;&quot;250230Z JAN 23&quot;&quot;</www:hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:41:21Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#NIST -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#NIST">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Framework"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:33:59Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Nessus -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Nessus">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#VulnerabilityScanners"/>
+        <is_a_Step_of rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#NIST"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:46:22Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Nessus_Vulnerability_Assesment_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Nessus_Vulnerability_Assesment_001">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SecurityMechanisms"/>
+        <isExecutedBy rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Nessus"/>
+        <www:hasTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;&quot;250227Z JAN 23&quot;&quot;</www:hasTime>
+        <onto4drone:produces rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CVE-2023-23560"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:47:51Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Node_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Node_001">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UnderwaterNode"/>
+        <hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_Node_001_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-26T08:32:43Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Node_002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Node_002">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UnderwaterNode"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:30:05Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Node_003 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Node_003">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UnderwaterNode"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:30:15Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Node_004 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Node_004">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UnderwaterNode"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:30:23Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_Node_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_Node_001">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Point"/>
+        <hasLatitude></hasLatitude>
+        <hasLocation></hasLocation>
+        <hasLongitude></hasLongitude>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:12:17Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UAV_GR_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UAV_GR_001_1">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+        <datAcron:hasLattitude>&quot;65513531&quot;</datAcron:hasLattitude>
+        <hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;28358263875&quot;</hasLatitude>
+        <hasLocation></hasLocation>
+        <hasLongitude></hasLongitude>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:53:23Z</dc:date>
+        <rdfs:label>Point_UAV_GR_001_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UAV_GR_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UAV_GR_002_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Point"/>
+        <hasLatitude></hasLatitude>
+        <hasLocation></hasLocation>
+        <hasLongitude></hasLongitude>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:23:14Z</dc:date>
+        <rdfs:label>Point_UAV_GR_002_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_001_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Point"/>
+        <hasLatitude></hasLatitude>
+        <hasLocation></hasLocation>
+        <hasLongitude></hasLongitude>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T16:58:00Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_002_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Point"/>
+        <hasLatitude></hasLatitude>
+        <hasLocation></hasLocation>
+        <hasLongitude></hasLongitude>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:29:19Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_003_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_003_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Point"/>
+        <hasLatitude></hasLatitude>
+        <hasLocation></hasLocation>
+        <hasLongitude></hasLongitude>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:29:28Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_004_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_004_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Point"/>
+        <hasLatitude></hasLatitude>
+        <hasLocation></hasLocation>
+        <hasLongitude></hasLongitude>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:29:36Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_WH_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_WH_001_1">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+        <hasLatitude></hasLatitude>
+        <hasLocation></hasLocation>
+        <hasLongitude></hasLongitude>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:53:50Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_WH_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_WH_002_1">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+        <hasLatitude></hasLatitude>
+        <hasLocation></hasLocation>
+        <hasLongitude></hasLongitude>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:24:05Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_WH_003_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_WH_003_1">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+        <hasLatitude>&quot;1213535&quot;</hasLatitude>
+        <hasLocation></hasLocation>
+        <hasLongitude></hasLongitude>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:24:10Z</dc:date>
+        <rdfs:label>Point_UUV_WH_003_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_Node_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_Node_001_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#RawPosition"/>
+        <hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_Node_001"/>
+        <hasWeatherCondition rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_Node_001"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:13:48Z</dc:date>
+        <datAcron:hasGeometry rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_Node_001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UAV_GR_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UAV_GR_001_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#RawPosition"/>
+        <datAcron:hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UAV_GR_001"/>
+        <datAcron:hasWeatherCondition rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UAV_GR_001_1"/>
+        <hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UAV_GR_001"/>
+        <hasWeatherCondition rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UAV_GR_001_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:50:23Z</dc:date>
+        <datAcron:hasGeometry rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UAV_GR_001_1"/>
+        <rdfs:label>RawP_UAV_GR_001_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UAV_GR_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UAV_GR_002_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#RawPosition"/>
+        <hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UAV_GR_002"/>
+        <hasWeatherCondition rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UAV_GR_002_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:03:12Z</dc:date>
+        <datAcron:hasGeometry rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UAV_GR_002_1"/>
+        <rdfs:label>RawP_UAV_GR_002_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_001_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#RawPosition"/>
+        <hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_001"/>
+        <hasWeatherCondition rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_001_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T16:57:39Z</dc:date>
+        <datAcron:hasGeometry rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_001_1"/>
+        <rdfs:label>RawP_UUV_GR_001_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_002_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#RawPosition"/>
+        <hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_002"/>
+        <hasWeatherCondition rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_002_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:27:17Z</dc:date>
+        <datAcron:hasGeometry rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_002_1"/>
+        <rdfs:label>RawP_UUV_GR_002_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_003_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_003_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#RawPosition"/>
+        <hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_003"/>
+        <hasWeatherCondition rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_003_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:27:27Z</dc:date>
+        <datAcron:hasGeometry rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_003_1"/>
+        <rdfs:label>RawP_UUV_GR_003_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_004_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_004_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#RawPosition"/>
+        <hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_004"/>
+        <hasWeatherCondition rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_004_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:27:34Z</dc:date>
+        <datAcron:hasGeometry rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_GR_004_1"/>
+        <rdfs:label>RawP_UUV_GR_004_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_WH_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_WH_001_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#RawPosition"/>
+        <hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_WH_001"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:52:07Z</dc:date>
+        <datAcron:hasGeometry rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_WH_001_1"/>
+        <rdfs:label>RawP_UUV_WH_001_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_WH_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_WH_002_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#RawPosition"/>
+        <hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_WH_002"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:23:19Z</dc:date>
+        <datAcron:hasGeometry rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_WH_002_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_WH_003_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_WH_003_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#RawPosition"/>
+        <hasTemporalFeature rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_WH_003"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:23:23Z</dc:date>
+        <datAcron:hasGeometry rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Point_UUV_WH_003_1"/>
+        <rdfs:label>RawP_UUV_WH_003_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Remote_Access_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Remote_Access_001">
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Consequence"/>
+        <ontology:isResultOf rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CVE-2023-23560"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-26T08:40:50Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_001">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail"/>
+        <formsTrajectory rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_001_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T16:57:03Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_002">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail"/>
+        <formsTrajectory rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_002_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:23:05Z</dc:date>
+        <rdfs:label>Sail_GR_002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_003 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_003">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail"/>
+        <formsTrajectory rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_003_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:23:15Z</dc:date>
+        <rdfs:label>Sail_GR_003</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_004 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_004">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail"/>
+        <formsTrajectory rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_004_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:23:20Z</dc:date>
+        <rdfs:label>Sail_GR_004</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_WH_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_WH_001">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail"/>
+        <formsTrajectory rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_WH_001_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:51:02Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_WH_002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_WH_002">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail"/>
+        <formsTrajectory rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_WH_002_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:22:26Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_WH_003 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_WH_003">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail"/>
+        <formsTrajectory rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_WH_003_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:22:32Z</dc:date>
+        <rdfs:label>Sail_WH_003</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sec_Mech_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sec_Mech_001">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SecurityMechanisms"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-26T08:44:06Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Splunk -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Splunk">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SIEM"/>
+        <owl:sameAs rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Ubuntu"/>
+        <isHostedOn rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Ubuntu"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:43:06Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SpoolFool -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SpoolFool">
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Attack"/>
+        <www:hasTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;250225Z JAN 23&quot;</www:hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:57:03Z</dc:date>
+        <ont:originatesFrom rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sys_Crash_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sys_Crash_001">
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Attack"/>
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#DenialOfService"/>
+        <ontology:hasConsequence rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#DoS_alert_001"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-08T10:18:16Z</dc:date>
+        <ont:originatesFrom rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UAV_GR_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UAV_GR_001_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Trajectory"/>
+        <DUL:hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UAV_GR_001_1"/>
+        <hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UAV_GR_001_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:46:07Z</dc:date>
+        <rdfs:label>Traj_UAV_GR_001_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UAV_GR_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UAV_GR_002_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Trajectory"/>
+        <hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UAV_GR_002_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:00:20Z</dc:date>
+        <rdfs:label>Traj_UAV_GR_002_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_001_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Trajectory"/>
+        <hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_001_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T16:57:23Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_002_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Trajectory"/>
+        <hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_002_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:24:22Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_003_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_003_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Trajectory"/>
+        <hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_003_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:24:28Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_004_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_GR_004_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Trajectory"/>
+        <hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_GR_004_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:24:45Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_WH_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_WH_001_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Trajectory"/>
+        <hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_WH_001_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:51:32Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_WH_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_WH_002_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Trajectory"/>
+        <hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_WH_002_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:22:56Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_WH_003_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Traj_UUV_WH_003_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Trajectory"/>
+        <hasPart rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#RawP_UUV_WH_003_1"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:22:59Z</dc:date>
+        <rdfs:label>Traj_UUV_WH_003_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UAV_GR_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UAV_GR_001">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UAVDrone"/>
+        <onto4drone:hasFlight rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Flight_GR_001"/>
+        <hasFlight rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Flight_GR_001"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:41:11Z</dc:date>
+        <rdfs:label>UAV_GR_001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UAV_GR_002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UAV_GR_002">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UAVDrone"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:41:15Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_001">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone"/>
+        <ontology:isUnderAttackfrom rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_001"/>
+        <hasTarget rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_001"/>
+        <hasSail rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_001"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-08T10:20:23Z</dc:date>
+        <rdfs:label>UUV_GR_001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_002">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone"/>
+        <hasSail rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_002"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:28:46Z</dc:date>
+        <rdfs:label>UUV_GR_002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_003 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_003">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone"/>
+        <hasSail rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_003"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:28:54Z</dc:date>
+        <rdfs:label>UUV_GR_003</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_004 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_004">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone"/>
+        <hasSail rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_GR_004"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:29:00Z</dc:date>
+        <rdfs:label>UUV_GR_004</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_001">
+        <rdf:type rdf:resource="http://ffrdc.ebiquity.umbc.edu/ns/ontology#Attacker"/>
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone"/>
+        <ontology:exploitsVulnerability rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#CVE-2023-23560"/>
+        <ontology:usesAttacks rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sys_Crash_001"/>
+        <hasTarget rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_10"/>
+        <hasSail rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_WH_001"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-26T08:16:15Z</dc:date>
+        <rdfs:label>UUV_WH_001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_002">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:19:12Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_003 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_003">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#UUVDrone"/>
+        <hasSail rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sail_WH_003"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:19:20Z</dc:date>
+        <rdfs:label>UUV_WH_003</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Ubuntu -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Ubuntu">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Debian"/>
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Hosts"/>
+        <ontology:hasIPv4Address rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_11"/>
+        <www:hasSoftware rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Splunk"/>
+        <has_IPv4_address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;192.168.1.11&quot;</has_IPv4_address>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:38:21Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_Node_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_Node_001">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#WeatherCondition"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:13:02Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UAV_GR_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UAV_GR_001_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#WeatherCondition"/>
+        <reportedPressure></reportedPressure>
+        <reportedWindSpeed></reportedWindSpeed>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:06:51Z</dc:date>
+        <datAcron:reportedMaxTemperature></datAcron:reportedMaxTemperature>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UAV_GR_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UAV_GR_002_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#WeatherCondition"/>
+        <reportedPressure></reportedPressure>
+        <reportedWindSpeed></reportedWindSpeed>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:22:15Z</dc:date>
+        <datAcron:reportedMaxTemperature></datAcron:reportedMaxTemperature>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_001_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_001_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#WeatherCondition"/>
+        <reportedPressure></reportedPressure>
+        <reportedWindSpeed></reportedWindSpeed>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T16:58:40Z</dc:date>
+        <datAcron:reportedMaxTemperature></datAcron:reportedMaxTemperature>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_002_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_002_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#WeatherCondition"/>
+        <reportedPressure></reportedPressure>
+        <reportedWindSpeed></reportedWindSpeed>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:39:37Z</dc:date>
+        <datAcron:reportedMaxTemperature></datAcron:reportedMaxTemperature>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_003_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_003_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#WeatherCondition"/>
+        <reportedPressure></reportedPressure>
+        <reportedWindSpeed></reportedWindSpeed>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:39:41Z</dc:date>
+        <datAcron:reportedMaxTemperature></datAcron:reportedMaxTemperature>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_004_1 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#WeatherCondition_UUV_GR_004_1">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#WeatherCondition"/>
+        <reportedPressure></reportedPressure>
+        <reportedWindSpeed></reportedWindSpeed>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:39:44Z</dc:date>
+        <datAcron:reportedMaxTemperature></datAcron:reportedMaxTemperature>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows_10 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows_10">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Hosts"/>
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#10"/>
+        <ontology:hasIPv4Address rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_10"/>
+        <has_IPv4_address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;192.168.1.10&quot;</has_IPv4_address>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:38:14Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows_Server -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Windows_Server">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Hosts"/>
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Server"/>
+        <ontology:hasIPv4Address rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#IP_192_168_1_2"/>
+        <has_IPv4_address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;192.168.1.2&quot;</has_IPv4_address>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:38:28Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#pfSense -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#pfSense">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Firewalls"/>
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Linux"/>
+        <reportLogsTo rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Splunk"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:37:35Z</dc:date>
+        <rdfs:label>pfSense</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#swarm_of_gr_uavs -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#swarm_of_gr_uavs">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#SwarmOfDrones"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UAV_GR_001"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UAV_GR_002"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#swarm_of_gr_uuvs -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#swarm_of_gr_uuvs">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/onto4drone#SwarmOfDrones"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_001"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_002"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_003"/>
+        <hasAsset rdf:resource="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_GR_004"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T09:31:22Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_Node_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_Node_001">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Time"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T17:12:49Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UAV_GR_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UAV_GR_001">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Time"/>
+        <hasTime></hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:10:16Z</dc:date>
+        <rdfs:label>t0001_UAV_GR_001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UAV_GR_002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UAV_GR_002">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Time"/>
+        <hasTime></hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T10:26:53Z</dc:date>
+        <rdfs:label>t0001_UAV_GR_002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_001">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Time"/>
+        <hasTime></hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T16:58:23Z</dc:date>
+        <rdfs:label>t0001_UUV_GR_001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_002">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Time"/>
+        <hasTime></hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:38:48Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_003 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_003">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Time"/>
+        <hasTime></hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:38:52Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_004 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_GR_004">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Time"/>
+        <hasTime></hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:38:55Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_WH_001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_WH_001">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Time"/>
+        <hasTime></hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-06T21:54:20Z</dc:date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_WH_002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_WH_002">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Time"/>
+        <hasTime></hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:24:53Z</dc:date>
+        <rdfs:label>t0001_UUV_WH_002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_WH_003 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#t0001_UUV_WH_003">
+        <rdf:type rdf:resource="http://www.datacron-project.eu/datAcron#Time"/>
+        <hasTime></hasTime>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stavr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-07T09:24:58Z</dc:date>
+        <rdfs:label>t0001_UUV_WH_003</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Nessus"/>
+            <rdf:Description rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#UUV_WH_001"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Nessus_Vulnerability_Assesment_001"/>
+            <rdf:Description rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#SpoolFool"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Nessus_Vulnerability_Assesment_001"/>
+            <rdf:Description rdf:about="http://i-lab.aegean.gr/kotis/ontologies/IoUTsec#Sys_Crash_001"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
