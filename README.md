@@ -1,5 +1,5 @@
 # IoUTSec
-The aim of the ontology is to represent knowledge related to drones' semantic trajectories (flights, missions, recordings). Reuses onto4drone ontology (http://i-lab.aegean.gr/kotis/Ontologies/Onto4drone) and UCO ontology (http://ffrdc.ebiquity.umbc.edu/ns/ontology).
+The aim of the ontology is to represent knowledge related to drones' semantic trajectories in IoUT (flights, missions, targets, etc), in combination with cybersecurity concepts. Also, we hope  Reuses onto4drone ontology (http://i-lab.aegean.gr/kotis/Ontologies/Onto4drone) and UCO ontology (http://ffrdc.ebiquity.umbc.edu/ns/ontology).
 
 Ontology IRI: http://i-lab.aegean.gr/kotis/ontologies/IoUTsec
 
